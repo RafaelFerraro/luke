@@ -10,7 +10,7 @@ $ docker build -t luke-db .
 After that, we need to initialize the psql by running the docker container from our image:
 
 ```
-$ docker run --it --rm --name luke-db-container luke-db
+$ docker run -it --rm --name luke-db-container luke-db
 ```
 
 Finally, let's play with our new database:
